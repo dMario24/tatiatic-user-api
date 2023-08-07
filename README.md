@@ -29,8 +29,10 @@
 # DEPLOY
 - fly.io + docker
 ```
+$ floy login
 # Create and configure a new app from source code or a Docker image.
 $ fly launch
+$ fly deploy
 ```
 
 - docker
