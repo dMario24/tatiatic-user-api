@@ -9,6 +9,13 @@ primary_region = "nrt"
 [build]
   dockerfile = "Dockerfile"
 
+[build.args]
+  STG="prd"
+  DB_UR="***"
+  DB_NA="***"
+  DB_ID="***"
+  DB_PA="***"
+
 [http_service]
   internal_port = 9876
   force_https = true
