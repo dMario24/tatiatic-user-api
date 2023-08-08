@@ -16,9 +16,9 @@ public class QueryController {
         queryService.create(log);
     }
 
-    @GetMapping("/hello")
+    @GetMapping("/ping")
     @ResponseBody
     public String hello() {
-        return "hi";
+        return queryService.pong();
     }
 }

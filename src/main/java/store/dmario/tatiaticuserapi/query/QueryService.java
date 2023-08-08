@@ -17,4 +17,8 @@ public class QueryService {
         query.setCreateDate(LocalDateTime.now());
         queryRepository.save(query);
     }
+
+    public String pong() {
+        return "pong";
+    }
 }
