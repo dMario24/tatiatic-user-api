@@ -7,14 +7,7 @@ app = "tatiatic-user-api"
 primary_region = "nrt"
 
 [build]
-  dockerfile = "Dockerfile"
-
-[build.args]
-  STG="prd"
-  DB_UR="***"
-  DB_NA="***"
-  DB_ID="***"
-  DB_PA="***"
+  dockerfile = "Dockerfile-flyio"
 
 [http_service]
   internal_port = 9876

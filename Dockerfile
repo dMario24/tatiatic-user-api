@@ -1,7 +1,7 @@
 FROM eclipse-temurin:17-jdk-alpine
 
 ENV VER=0.2.0
-ENV STG=local
+ENV STG=dev
 ENV DB_URL=jdbc:h2:mem:local
 ENV DB_USERNAME=sa
 ENV DB_PASSWORD=''
