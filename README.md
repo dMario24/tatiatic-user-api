@@ -52,3 +52,13 @@ a5d74c4c95c5   tatiatic-user-api:0.1.0   "java -jar /app.jar"   20 seconds ago  
 
 ### reference
 - https://spring.io/guides/topicals/spring-boot-docker/
+- https://spring.io/guides/gs/accessing-data-rest/
+- https://spring.io/guides/gs/rest-service/
+- https://github.com/springdoc/springdoc-openapi
+
+
+# Screen capture
+- http://localhost:9021/swagger-ui.html
+![image](https://github.com/dMario24/tatiatic-user-api/assets/134017660/5e743c8f-b03f-47d9-b188-8a698a559feb)
+
+
