@@ -55,6 +55,7 @@ a5d74c4c95c5   tatiatic-user-api:0.1.0   "java -jar /app.jar"   20 seconds ago  
 - https://spring.io/guides/gs/accessing-data-rest/
 - https://spring.io/guides/gs/rest-service/
 - https://github.com/springdoc/springdoc-openapi
+- https://spring.io/blog/2015/12/10/spring-boot-memory-performance
 
 
 # Screen capture
