@@ -4,6 +4,10 @@
 ![LGTM](https://i.lgtm.fun/2j9j.png)
 
 # Architecture
+- user-api : https://github.com/dMario24/tatiatic-user-api / https://tatiatic-user-api.fly.dev
+- webapp : https://github.com/dMario24/tatiatic-webapp / https://tatiatic-webapp.fly.dev
+- ml-aip : https://github.com/dMario24/tatiatic-ml-api / https://tatiatic-ml-api.fly.dev
+
 ![image](https://github.com/dMario24/tatiatic-user-api/assets/134017660/31ade392-602a-4aaa-ba60-ea9ed8c40349)
 
 # DEV
