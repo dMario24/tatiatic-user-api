@@ -1,16 +1,16 @@
 FROM eclipse-temurin:17-jdk-alpine
 
-ARG STG=prd
-ARG DB_UR=***
-ARG DB_NA=***
-ARG DB_ID=***
-ARG DB_PA=***
+ENV VER=0.2.0
+ENV STG=local
+ENV DB_URL=jdbc:h2:mem:local
+ENV DB_USERNAME=sa
+ENV DB_PASSWORD=''
 
-COPY build/libs/tatiatic-user-api-0.2.0.jar app.jar
+COPY build/libs/tatiatic-user-api-${VER}.jar app.jar
 
 ENTRYPOINT ["java", \
 "-Dspring.profiles.active=${STG}", \
-"-Dspring.datasource.url=jdbc:postgresql://${DB_UR}:5432/${DB_NA}", \
-"-Dspring.datasource.username=${DB_ID}", \
-"-Dspring.datasource.password=${DB_PA}", \
+"-Dspring.datasource.url=${DB_URL}", \
+"-Dspring.datasource.username=${DB_USERNAME}", \
+"-Dspring.datasource.password=${DB_PASSWORD}", \
 "-jar","/app.jar"]
